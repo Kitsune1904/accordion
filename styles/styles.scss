@@ -11,7 +11,7 @@ body {
   }
   main {
     position: absolute;
-    top: 142px;
+    top: 50%;
     left:  5%;
     right: 5%;
     background-color: global.$white;
@@ -74,6 +74,10 @@ body {
 
 @media (min-width: 768px) {
   body {
+    header {
+      height: 320px;
+      background-image: url("../assets/images/background-pattern-desktop.svg");
+    }
     main {
       left:  25%;
       right: 25%;
