@@ -1,0 +1,20 @@
+$dark-purple: #301534;
+$pale-purple: #8b6990;
+$pink: #ad28eb;
+$light-pink: #f8eeff;
+$white: #fff;
+
+$header-main: 32px;
+$header-secondary: 16px;
+$text: 14px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('../assets/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+}
